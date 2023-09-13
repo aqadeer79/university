@@ -1,4 +1,6 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Infrastructure.ServiceDiscovery;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -7,6 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHostedService<RabbitMQWorker>();
+
+var serviceConfig = builder.Configuration.GetServiceConfig();
+builder.Services.RegisterConsulServices(serviceConfig);
 
 var app = builder.Build();
 

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "t8OiGEPj4zAZfHYx7PrmGUufuADy99Apd0D2vMTUEvXUlj2oH+VwjGNoA2s0na4dkgbpKhSsLCb3WS+ihpBJ2g==",
+  "dgSpecHash": "f3UCS9ctEJw8TuDRhSAs3hiSidi2LLuZerRcYMBUe668j9adALxom7wcIWuFMKcaUwvBQd7M2mxhqnjYd1PUxA==",
   "success": true,
   "projectFilePath": "/Users/aqadeer/Desktop/University/StudentAPI/StudentAPI.csproj",
   "expectedPackageFiles": [
     "/Users/aqadeer/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/aqadeer/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/aqadeer/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/aqadeer/.nuget/packages/consul/1.6.10.9/consul.1.6.10.9.nupkg.sha512",
     "/Users/aqadeer/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/aqadeer/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/aqadeer/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

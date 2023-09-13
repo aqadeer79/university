@@ -1,51 +1,45 @@
 ﻿<Properties StartupConfiguration="{BA140212-800E-4B85-8A2E-7DD0BE21A945}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/aqadeer/Desktop/University/StudentAPI/Controllers/StudentController.cs" relfile="StudentAPI/Controllers/StudentController.cs" line="21" column="1" />
+      <Breakpoint file="/Users/aqadeer/Desktop/University/StudentAPI/ConsulRegistration.cs" relfile="StudentAPI/ConsulRegistration.cs" line="11" column="1" />
+      <Breakpoint file="/Users/aqadeer/Desktop/University/StudentAPI/Startup.cs" relfile="StudentAPI/Startup.cs" line="11" column="1" />
+      <Breakpoint file="/Users/aqadeer/Desktop/University/StudentAPI/ServiceDiscovery/ServiceDiscoveryHostedService.cs" relfile="StudentAPI/ServiceDiscovery/ServiceDiscoveryHostedService.cs" line="35" column="1" />
+      <Breakpoint file="/Users/aqadeer/Desktop/University/StudentAPI/ServiceDiscovery/ServiceDiscoveryHostedService.cs" relfile="StudentAPI/ServiceDiscovery/ServiceDiscoveryHostedService.cs" line="34" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="StudentAPI/Services/Impl/StudentService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DepartmentAPI/ServiceDiscovery/ServiceConfigExtensions.cs">
     <Files>
-      <File FileName="StudentAPI/Controllers/StudentController.cs" Line="23" Column="1" />
-      <File FileName="StudentAPI/Services/Impl/StudentService.cs" Line="29" Column="1" />
-      <File FileName="StudentAPI/Services/IStudentService.cs" Line="8" Column="23" />
-      <File FileName="StudentAPI/Models/Student.cs" Line="21" Column="1" />
-      <File FileName="StudentAPI/Models/Dtos/StudentDto.cs" Line="10" Column="34" />
-      <File FileName="StudentAPI/Data/ApplicationDbContext.cs" Line="15" Column="2" />
-      <File FileName="StudentAPI/Data/Repositories/IStudentRepository.cs" Line="13" Column="1" />
-      <File FileName="StudentAPI/Data/Repositories/StudentRepository.cs" Line="18" Column="1" />
-      <File FileName="StudentAPI/Program.cs" Line="19" Column="63" />
-      <File FileName="StudentAPI/appsettings.json" Line="1" Column="1" />
-      <File FileName="StudentAPI/appsettings.Development.json" Line="14" Column="1" />
-      <File FileName="StudentAPI/Startup.cs" Line="26" Column="1" />
+      <File FileName="StudentAPI/ServiceDiscovery/ServiceDiscoveryHostedService.cs" Line="34" Column="42" />
+      <File FileName="StudentAPI/Startup.cs" Line="28" Column="10" />
+      <File FileName="DepartmentAPI/ServiceDiscovery/ServiceConfig.cs" />
+      <File FileName="DepartmentAPI/ServiceDiscovery/ServiceDiscoveryHostedService.cs" Line="14" Column="16" />
+      <File FileName="DepartmentAPI/ServiceDiscovery/ServiceConfigExtensions.cs" Line="26" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="University" expanded="True">
-            <Node name="StudentAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Repositories" expanded="True" />
-              </Node>
-              <Node name="Models" expanded="True">
-                <Node name="Dtos" expanded="True" />
-              </Node>
-              <Node name="Services" expanded="True">
-                <Node name="Impl" expanded="True">
-                  <Node name="StudentService.cs" selected="True" />
+            <Node name="DepartmentAPI" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Consul" expanded="True" />
+                  <Node name="Microsoft.AspNetCore.OpenApi" expanded="True" />
                 </Node>
               </Node>
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="ServiceDiscovery" expanded="True">
+                <Node name="ServiceConfigExtensions.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="StudentAPI" expanded="True">
+              <Node name="ServiceDiscovery" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StudentAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -54,8 +48,6 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.StudentAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.DepartmentAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

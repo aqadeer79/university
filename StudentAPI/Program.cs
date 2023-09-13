@@ -1,5 +1,7 @@
 ﻿using crud_application_test.Data;
+using Infrastructure.ServiceDiscovery;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using StudentAPI.RabbitMQ;
 using StudentAPI.Repositories;
 using StudentAPI.Services;
@@ -20,6 +22,9 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IMessageProducer, RabbitMQProducer>();
 
+var serviceConfig = builder.Configuration.GetServiceConfig();
+builder.Services.RegisterConsulServices(serviceConfig);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,4 +41,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
